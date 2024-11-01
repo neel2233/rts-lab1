@@ -19,5 +19,5 @@ for(int i = 0; i < 10000000; i++)
 }
 clock_t end = clock();
 double seconds = (double)(end - start) / CLOCKS_PER_SEC;
-std::cout << seconds;
+std::cout << seconds << std::endl;
 }
