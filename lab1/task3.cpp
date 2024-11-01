@@ -6,12 +6,12 @@
 
 void Func(std::string name)
 {
-    for(int i = 0; i < 1000000000; i++)
+    for(int i = 0; i < 10000000; i++)
     {
         int fac = 1;
-        for(int i = 1; i <= 10; i++)
+        for(int j = 1; j <= 10; j++)
         {
-            fac *= i;
+            fac *= j;
         }
 
     }
